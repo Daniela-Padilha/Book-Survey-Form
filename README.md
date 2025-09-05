@@ -15,7 +15,7 @@ It is a simple survey form designed for book lovers, where users can share their
 ![Survey Form Screenshot](screenshot.png)  
 
 ## Live Demo  
-👉 [View on GitHub Pages](https://YOUR-GITHUB-USERNAME.github.io/book-survey-form/)  
+👉 [View on GitHub Pages](https://daniela-padilha.github.io/Book-Survey-Form/)  
 
 ## Tech Stack  
 - HTML5  
