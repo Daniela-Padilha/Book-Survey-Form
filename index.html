@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="max-height=device-height initial-scale=1.0" />
+  <title>Book Survey Form</title>
+</head>
+<body>
+  <!-- HEADER -->
+  <h1 id="title">Book Survey Form</h1>
+  <p id="description">Tell us more about you as a booklover</p>
+  <!-- FORM -->
+  <form id="survey-form">
+    <!-- PERSONAL INFO -->
+    <fieldset>
+      <label id="name-label" for="name" >Name <input class="input-boxes" type="text" id="name" placeholder="Jane Doe" required /></label>
+      <label id="email-label" for="email" >E-mail <input class="input-boxes" type="email" id="email" placeholder="yourname@email.com" required /></label>
+      <label id="number-label" for="number" >Number of books you read per year <input class="input-boxes" type="number" id="number" min=0 max=300 placeholder="30" /></label>
+    </fieldset>
+    <!-- BOOKISH INFO -->
+    <fieldset id="bookish-fieldset">
+      <label id="dropdown-label">Favorite genre 
+        <select id="dropdown">
+          <option value="">(select one)</option>
+          <option value=1>Fantasy</option>
+          <option value=2>Romance</option>
+          <option value=3>Crime</option>
+          <option value=4>Non-Fiction</option>
+          <option value=5>Poetry</option>
+        </select>
+      </label>
+      <label id="radio-label">Type of reader
+        <label><input class="radio" type="radio" value=1 name="reader-type" checked /> E-reader</label>
+        <label><input class="radio" type="radio" value=2 name="reader-type"/> Physical Book</label>
+        <label><input class="radio" type="radio" value=3 name="reader-type"/> Audiobook</label>
+      </label>
+      <label id="checkbox-label">Choose your prefered platforms <p class="optional">(Check all that apply)</p></label>
+      <label><input class="checkbox" type="checkbox" value=1 /> Instagram</label>
+      <label><input class="checkbox" type="checkbox" value=2 /> Tik Tok</label>
+      <label><input class="checkbox" type="checkbox" value=3 /> Threads</label>
+      <label><input class="checkbox" type="checkbox" value=4 /> Twitter</label>
+      <label><input class="checkbox" type="checkbox" value=5 /> Facebook</label>
+      <label><input class="checkbox" type="checkbox" value=6 /> Youtube</label>
+    </fieldset>
+    <!-- COMMENT -->
+    <fieldset>
+      <label>Comments <p class="optional">(optional)</p>
+        <textarea rows=4 cols=59 ></textarea>
+      </label>
+      <input id="submit" type="submit" />
+    </fieldset>
+  </form>
+</body>
+</html>
